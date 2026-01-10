@@ -28,7 +28,8 @@ db-key = "0.0.5"
 libc = "0.2.4"
 
 [dependencies.leveldb-sys]
-version = "2.0.0"
+git = "https://github.com/0xENCRYPTED/leveldb-sys.git"
+rev = "46395f9"
 
 [dev-dependencies]
 tempdir = "0.3.4"
